@@ -36,7 +36,7 @@ const ContactSection = () => {
     };
 
     return (
-        <section id="contact" className='bg-cover bg-center bg-no-repeat py-20 md:py-24' style={{backgroundImage: "url('/src/assets/serviceBg.png')"}}>
+        <section id="contact" className='bg-cover bg-center bg-no-repeat py-20 md:py-24' style={{backgroundImage: "url('/images/serviceBg.png')"}}>
             <div className="container mx-auto py-20 md:py-24 px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl md:text-5xl font-semibold font-montserrat text-center text-customPink mb-12">Contact Me</h2>
                 <div className="flex justify-center space-x-6">

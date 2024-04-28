@@ -56,7 +56,7 @@ const AboutSection = () => {
                     </div>
 
                     <div className="md:h-full">
-                        <img src="/src/assets/aboutImage.png" alt="Your Image" className="w-full h-full object-cover" />
+                        <img src="/images/aboutImage.png" alt="Your Image" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
