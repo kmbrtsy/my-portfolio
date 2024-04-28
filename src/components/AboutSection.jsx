@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
     return (
-        <section id="about" className="bg-cover bg-center bg-no-repeat py-20" style={{backgroundImage:"url('/src/assets/designBG.png')"}}>
+        <section id="about" className="bg-cover bg-center bg-no-repeat py-20" style={{backgroundImage:"url('/images/designBG.png')"}}>
             <div className="container mx-auto py-2 md:py-4 mb-8 px-6 sm:px-8 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                     <div>

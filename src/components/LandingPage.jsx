@@ -2,7 +2,7 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <section id='home' className='bg-cover bg-center bg-no-repeat' style={{backgroundImage: "url('/src/assets/bgimage.png')"}}>
+    <section id='home' className='bg-cover bg-center bg-no-repeat' style={{backgroundImage: "url('/images/bgimage.png')"}}>
         <div className='container mx-auto py-20 md:py-24 px-4 sm:px-6 lg:px-8 '>
             <div className='max-w-4xl mx-auto text-center'>
                 <p className="font-semibold text-white text-lg md:text-xl lg:text-2xl mb-4 md:mb-6">
