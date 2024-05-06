@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 
 const AboutSection = () => {
     return (
@@ -17,36 +18,36 @@ const AboutSection = () => {
                             <span className="font-radley italic text-4xl">S</span>kills~
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-2">
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Web Development</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">UI/UX Design</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Frontend Frameworks</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Responsive Design</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
-                                <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Squarespace</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
+                                <p className="text-lg text-center font-montserrat font-semibold text-gray-900">React JS</p>
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">HTML/CSS/Javascript</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Growth Mindset</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Adaptability</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Fast Learner</p>
-                            </div>
-                            <div className="bg-lightPink p-4 rounded-lg shadow-md">
+                            </motion.div>
+                            <motion.div className="bg-lightPink p-4 rounded-lg shadow-md" whileHover={{ scale: 1.1 }}>
                                 <p className="text-lg text-center font-montserrat font-semibold text-gray-900">Leadership</p>
-                            </div>
+                            </motion.div>
                         </div>
                         <div className="container mx-auto text-start font-montserrat py-16 pb-0">
                                 <a href="/files/Kimberly-Cordero-Resume.pdf" download className="inline-block bg-customPink hover:bg-lightPink text-white font-semibold py-2 px-4 rounded-lg">

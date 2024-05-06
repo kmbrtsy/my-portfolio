@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion';
 
 const ProjectSection = () => {
     return (
@@ -8,22 +9,22 @@ const ProjectSection = () => {
                 <h2 className="text-2xl md:text-3xl font-semibold text-center text-white font-montserrat mb-12">MY CREATIVE WORKS</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Project 1 */}
-                    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                    <motion.div className="bg-white rounded-lg shadow-md overflow-hidden" whileHover={{ scale: 1.1 }}>
                         <img src="/images/pject1.png" alt="Project 1" className="w-full h-64 object-cover" />
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-4">Full-Stack E-Commerce Website</h3>
                             <p className="text-gray-700">Versatile team-oriented website, equipped with full-stack functionality and track progress with our intuitive admin dashboard. Currently in development.</p>
                         </div>
-                    </div>
+                    </motion.div>
 
                     {/* Project 2 */}
-                    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                    <motion.div className="bg-white rounded-lg shadow-md overflow-hidden" whileHover={{ scale: 1.1 }}>
                         <img src="/images/pject2.png" alt="Project 2" className="w-full h-64 object-cover" />
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-4">UI/UX Website Design</h3>
                             <p className="text-gray-700">The website is constructed as a single-page layout, developed using Squarespace's platform. Currently in development.</p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
