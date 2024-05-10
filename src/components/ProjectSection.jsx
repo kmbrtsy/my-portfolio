@@ -12,8 +12,8 @@ const ProjectSection = () => {
                     <motion.div className="bg-white rounded-lg shadow-md overflow-hidden" whileHover={{ scale: 1.1 }}>
                         <img src="/images/pject1.png" alt="Project 1" className="w-full h-64 object-cover" />
                         <div className="p-6">
-                            <h3 className="text-xl font-semibold mb-4">Full-Stack E-Commerce Website</h3>
-                            <p className="text-gray-700">Versatile team-oriented website, equipped with full-stack functionality and track progress with our intuitive admin dashboard. Currently in development.</p>
+                            <h3 className="text-xl font-semibold mb-4">E-Commerce Website Frontend</h3>
+                            <p className="text-gray-700">Versatile team-oriented website, equipped with frontend functionality and track progress with our intuitive admin dashboard. Currently in development.</p>
                         </div>
                     </motion.div>
 
